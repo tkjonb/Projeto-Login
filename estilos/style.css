@@ -3,4 +3,41 @@
 Paleta de cores
 verde: #49a09d
 lilas: #5f2c82
-/*
+*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body, html{
+    background-color: aliceblue;
+    height: 100vh;
+    width: 100vw;
+}
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+section#login{
+    background-color: white;
+    min-width: 250px;
+    height: 500px;
+    margin: 40px 10px 10px 10px;
+    border-radius: 20px;
+    border: 1px solid lightblue;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.435);
+}
+section#login > div#imagem{
+    background: white url(../imagens/pexels-mark-mwamba-252064-912253\(1\).jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
+    display: block;
+}
+section#login > div#formulario{
+    display: block;
+    padding: 10px;
+
+}
