@@ -29,6 +29,8 @@ section#login{
     border: 1px solid lightblue;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.435);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 section#login > div#imagem{
     background: white url(../imagens/pexels-mark-mwamba-252064-912253\(1\).jpg) no-repeat;
